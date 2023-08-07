@@ -1,4 +1,6 @@
 body {
+    widht: 100%;
+    min-height:100%;
     /* Cria um degradê linear do topo (preto) para o fundo (cinza escuro) */
     background: linear-gradient(to bottom, #000000, #333333);
     margin: 0;
