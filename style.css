@@ -1,26 +1,28 @@
 body {
-    widht: 100%;
-    min-height:100%;
-    /* Cria um degradê linear do topo (preto) para o fundo (cinza escuro) */
-    background: linear-gradient(to bottom, #000000, #333333);
     margin: 0;
-    padding: 0;
-    font-family: 'Roboto Slab', serif; /* Utiliza a fonte Roboto Slab que foi carregada do Google Fonts */
-    color: #ffffff; /* Cor do texto branco para contrastar com o fundo escuro */
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif; 
+    background: rgb(2,0,36);
+    background: linear-gradient(122deg, rgba(2,0,36,1) 0%, rgba(148,14,196,1) 47%, rgba(0,166,223,1) 100%);
+    color: #fff; 
 }
 
-/* Estiliza o texto grande */
+
 .big-text {
     font-size: 64px;
-    font-weight: 700; /* Peso da fonte para torná-la mais larga/bold */
+    font-weight: 700; 
     margin: 20px; 
-    line-height: 1.4; /* Espaçamento entre linhas para melhor legibilidade */
-    text-align: center; /* Centraliza o texto */
+    line-height: 1.4; 
+    text-align: center; 
 }
 
-/* Adaptações para dispositivos com tamanhos de tela menores */
 @media (max-width: 768px) {
     .big-text {
-        font-size: 48px; /* Reduz o tamanho da fonte para telas menores */
+        font-size: 48px; 
     }
+}
+
+h1 {
+	font-size: 5rem;
+	padding: 5rem;
 }
